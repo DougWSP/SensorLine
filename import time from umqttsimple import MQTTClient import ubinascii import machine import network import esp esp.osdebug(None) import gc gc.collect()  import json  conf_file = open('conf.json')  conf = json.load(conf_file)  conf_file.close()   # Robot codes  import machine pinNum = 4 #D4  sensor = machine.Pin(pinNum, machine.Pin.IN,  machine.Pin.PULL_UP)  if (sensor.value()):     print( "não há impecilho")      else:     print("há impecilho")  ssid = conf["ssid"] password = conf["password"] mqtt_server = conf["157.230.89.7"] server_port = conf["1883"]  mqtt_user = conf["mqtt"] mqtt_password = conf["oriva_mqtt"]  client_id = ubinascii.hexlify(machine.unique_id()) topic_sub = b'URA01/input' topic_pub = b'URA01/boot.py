@@ -25,8 +25,8 @@ if (sensor.value()):
 else:
     print("há impecilho")
 
-ssid = conf["ssid"]
-password = conf["password"]
+ssid = conf["MQTTline"]
+password = conf["testeline"]
 mqtt_server = conf["157.230.89.7"]
 server_port = conf["1883"] 
 mqtt_user = conf["mqtt"]

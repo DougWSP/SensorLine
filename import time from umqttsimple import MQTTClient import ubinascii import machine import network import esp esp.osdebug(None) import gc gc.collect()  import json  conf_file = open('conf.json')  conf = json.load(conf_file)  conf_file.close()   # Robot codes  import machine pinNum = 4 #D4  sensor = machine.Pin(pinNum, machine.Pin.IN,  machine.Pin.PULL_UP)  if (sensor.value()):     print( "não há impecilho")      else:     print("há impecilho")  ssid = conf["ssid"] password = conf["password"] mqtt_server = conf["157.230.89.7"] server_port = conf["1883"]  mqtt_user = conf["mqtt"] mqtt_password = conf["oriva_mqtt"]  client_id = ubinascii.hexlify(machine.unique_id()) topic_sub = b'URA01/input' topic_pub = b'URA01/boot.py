@@ -33,8 +33,8 @@ mqtt_user = conf["mqtt"]
 mqtt_password = conf["oriva_mqtt"]
 
 client_id = ubinascii.hexlify(machine.unique_id())
-topic_sub = b'URA01/input'
-topic_pub = b'URA01/output'
+topic_sub = b'TesteMQTT01/input'
+topic_pub = b'TesteMQTT01/output'
 
 last_message = 0
 message_interval = 1
